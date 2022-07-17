@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 5;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
@@ -7,7 +7,7 @@
 body {
   padding: 1rem;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #e0e0e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,10 +15,12 @@ body {
 }
 
 header {
-  padding: 0.5rem;
+  padding: 0rem;
   width: 100%;
   color: white;
   background-color: black;
+  text-shadow: 2px 2px #8e8989;
+
 }
 
 #ramen-menu {
@@ -45,6 +47,7 @@ header {
 
 .detail-image {
   height: 350px;
+  
 }
 
 .name,
@@ -57,6 +60,7 @@ header {
 
 .name {
   bottom: 60px;
+  
 }
 
 .restaurant {
@@ -64,11 +68,7 @@ header {
 }
 
 form {
-  margin: 1rem 0;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 165px;
 }
 
 input,
@@ -93,10 +93,12 @@ input[type="submit"]:active {
   background-color: gray;
 }
 
-form h4 {
+
+
+label{
   width: 100%;
   padding: 0.25rem;
   margin: 0.5rem 0;
-  color: white;
-  background-color: black;
+  color: rgb(16, 27, 180);
+  font-family: Helvetica, sans-serif;
 }
